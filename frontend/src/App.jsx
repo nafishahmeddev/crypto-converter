@@ -95,9 +95,9 @@ function App() {
         opacity: 1,
         backgroundImage: "repeating-radial-gradient( circle at 0 0, transparent 0, #00603b 40px ), repeating-linear-gradient( #008a4555, #008a45 )"
       }}>
-      <div className="w-screen h-screen flex items-center justify-center ">
+      <div className="w-screen h-screen flex items-center justify-center p-4">
 
-        <div className="max-w-sm m-auto p-5 bg-white rounded-xl flex-1 flex flex-col gap-4 relative overflow-hidden">
+        <div className="max-w-xs m-auto p-5 bg-white rounded-xl flex-1 flex flex-col gap-4 relative overflow-hidden">
 
           <h3 className="text-center text-xl mb-4 font-bold">Currency Converter</h3>
 
