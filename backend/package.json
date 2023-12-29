@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_PATH=./  nodemon index.js",
+    "start": "NODE_PATH=./  node index.js",
     "test": "jest --runInBand --setupFiles dotenv/config"
   },
   "keywords": [],
