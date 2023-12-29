@@ -89,12 +89,7 @@ function App() {
 
   // JSX for the component
   return (
-    <form onSubmit={handleSubmit} onChange={() => setResult(undefined)}
-      style={{
-        backgroundColor: "#00603b",
-        opacity: 1,
-        backgroundImage: "repeating-radial-gradient( circle at 0 0, transparent 0, #00603b 40px ), repeating-linear-gradient( #008a4555, #008a45 )"
-      }}>
+    <form onSubmit={handleSubmit} onChange={() => setResult(undefined)} className="main-body">
       <div className="w-screen h-screen flex items-center justify-center p-4">
 
         <div className="max-w-xs m-auto p-5 bg-white rounded-xl flex-1 flex flex-col gap-4 relative overflow-hidden">
